@@ -1,0 +1,66 @@
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 405px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home::before{
+    background: url('../good.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 65%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;   
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif   
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* utility classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 13px; 
+}
+
+.h-secondary{
+    font-family: 'Bitter', serif;
+    font-size: 2.0rem;
+    padding: 13px; 
+}
+
+.btn{
+    padding: 5px 16px;
+    border: 2px solid white;
+    background-color: rgba(231, 123, 123, 0.402);
+    color: white;
+    margin: 17px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}

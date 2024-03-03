@@ -1,0 +1,91 @@
+#services{
+    margin: 34px;
+    display: flex;
+}
+#ho{
+    font-size: 3.3rem;
+    padding: 13px;
+    font-family: 'Bitter', serif;
+    text-align: center
+    ;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 28px 35px;
+    border-radius: 25px;
+    background-color: rgb(248, 242, 242);
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+.good{
+    font-family: 'Bitter', serif;
+    font-size: 2.0rem;
+}
+
+#client-section{
+    position: relative;
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img{
+    height: 130px;
+}
+
+/* utility classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 13px; 
+}
+
+.h-secondary{
+    font-family: 'Bitter', serif;
+    font-size: 2.0rem;
+    padding: 13px; 
+}
+
+.btn{
+    padding: 5px 16px;
+    border: 2px solid white;
+    background-color: rgba(231, 123, 123, 0.402);
+    color: white;
+    margin: 17px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}

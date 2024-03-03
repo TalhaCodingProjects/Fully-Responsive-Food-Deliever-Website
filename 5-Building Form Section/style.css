@@ -1,0 +1,98 @@
+#client-section{
+    position: relative;
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img{
+    height: 130px;
+}
+
+/* contact form */
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    background: url('../contact.jpg') no-repeat center center/cover;
+}
+
+#contact-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+/* utility classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 13px; 
+}
+
+.h-secondary{
+    font-family: 'Bitter', serif;
+    font-size: 2.0rem;
+    padding: 13px; 
+}
+
+.btn{
+    padding: 5px 16px;
+    border: 2px solid white;
+    background-color: rgba(231, 123, 123, 0.402);
+    color: white;
+    margin: 17px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
